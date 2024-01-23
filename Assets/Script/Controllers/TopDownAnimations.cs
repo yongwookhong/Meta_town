@@ -9,8 +9,8 @@ public class TopDownAnimations : MonoBehaviour
 
     protected virtual void Awake ()
     {
-        animator = GetComponentInChildren<Animator> ();
-        controller = GetComponent<TopDownCharacterController> ();
+        animator = GetComponentInChildren<Animator>();
+        controller = GetComponent<TopDownCharacterController>();
     }
 
 }
